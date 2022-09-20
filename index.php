@@ -8,12 +8,6 @@ $w = $_GET['word'];
 $r = $_GET['replace'];
 $cussWords = str_replace($w, $r, $p, $count);
 
-echo $p;
-echo '<br>';
-echo $l;
-echo '<br>';
-
-
 ?>
 
 <h3>Paragrafo originale: <?php echo $p?></h3>
